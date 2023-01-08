@@ -29,6 +29,7 @@ __ 02 colors
 #555
 #333
 #888
+#767676
 
 —— 05 SHADOWS
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -84,6 +85,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
