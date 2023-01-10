@@ -8,12 +8,13 @@
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
 }
 /* ********************************* */
-/* Header*/
+/* NAVIGATIOM*/
 /* ********************************* */
 .main-nav-list {
   list-style: none;
@@ -47,6 +48,21 @@
   background-color: #cf711f;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  color: #333;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 /* ********************************* */
 /* Hero Section */
 /* ********************************* */
