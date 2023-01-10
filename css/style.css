@@ -18,7 +18,7 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 .main-nav-link:link,
@@ -276,8 +276,7 @@
 .testimonial-container {
   padding: 9.6rem;
 }
-.testimonial {
-}
+
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
@@ -477,8 +476,6 @@
   color: #aaa;
 }
 
-.cta-form button {
-}
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.6rem rgba(253, 242, 233, 0.5);

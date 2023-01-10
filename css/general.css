@@ -12,6 +12,7 @@ defualt: 1
 smal:1.05
 p defualt:1.06
 meduim:1.2
+large:1.8
 -letter-spacing
 -0.5
 0.75
@@ -39,7 +40,6 @@ Defualt : 9px
 -- 07 WHITESPACE
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
 */
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap");
 * {
@@ -49,6 +49,7 @@ Defualt : 9px
 }
 
 html {
+  /* 10 px  */
   font-size: 62.5%;
 }
 
@@ -201,6 +202,7 @@ body {
   align-items: center;
   gap: 1.6rem;
   font-size: 1.8rem;
+  line-height: 1.2;
 }
 .list-icon {
   width: 3rem;
