@@ -18,6 +18,10 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
 
     <title>OmniFood</title>
@@ -29,11 +33,13 @@
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#"> Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">try for free</a></li>
+          <li><a class="main-nav-link" href="#how-work">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimomials"> Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">try for free</a></li>
         </ul>
       </nav>
 
@@ -61,10 +67,10 @@
               nutritional needs.
             </p>
 
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >start eating well</a
             >
-            <a href="#" class="btn btn--outline">learn more &darr;</a>
+            <a href="#how-work" class="btn btn--outline">learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer Photo" />
@@ -114,7 +120,7 @@
       HOW IT WORKS SECTION 
       *********************************  -->
 
-      <section class="section-how">
+      <section class="section-how" id="how-work">
         <div class="container">
           <span class="sub-heading">How It Works</span>
           <h2 class="heading-secondary">
@@ -184,7 +190,7 @@
       <!-- *******************************
       MEALS SECTION 
       *********************************  -->
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="sub-heading">meals</span>
           <h2 class="heading-secondary">
@@ -308,7 +314,7 @@
       TESTIMONIALS SECTION 
       *********************************  -->
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimomials">
         <div class="testimonial-container">
           <span class="sub-heading">TESTIMONIALS</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -457,7 +463,7 @@
       <!-- *******************************
       PRICING SECTION 
       *********************************  -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="sub-heading">PRICING</span>
           <h2 class="heading-secondary">
@@ -568,7 +574,7 @@
       <!-- *******************************
       CALL TO ACTION SECTION 
       *********************************  -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
