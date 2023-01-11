@@ -236,12 +236,15 @@ body {
 strong {
   font-weight: 500;
 }
+
+/* ********************************* */
 /* SCROLL TO TOP */
+/* ********************************* */
 
 .scroll-to-top {
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  bottom: 40px;
+  right: 40px;
   background-color: #e67e22;
   border-radius: 6px;
   padding: 1rem;
