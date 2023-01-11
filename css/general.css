@@ -236,3 +236,25 @@ body {
 strong {
   font-weight: 500;
 }
+/* SCROLL TO TOP */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: #e67e22;
+  border-radius: 6px;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}
+
+.top-icon {
+  font-size: 2rem;
+}
